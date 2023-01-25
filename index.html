@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tipos de botões</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="btn-types">
+        <h1>Tipos de botão</h1>
+        <p>
+          Dentro de um layout, botões servem para destacar ações importantes a
+          serem tomadas. <br />
+          Acompanhe abaixo um exemplo de tipos e propriedades.
+        </p>
+        <div class="grid-1">
+          <ul class="titulo-botao">
+            <li class="panel-label item-1">Botão Primário</li>
+            <li class="panel-label">Botão Secundário</li>
+            <li class="panel-label">Botão Terciário</li>
+            <li class="panel-label">Cursor</li>
+          </ul>
+          <ul class="tipo-botao">
+            <li class="panel-label">default</li>
+            <li class="panel-label">hover</li>
+            <li class="panel-label">focus</li>
+            <li class="panel-label">disabled</li>
+            <li class="panel-label">loading</li>
+            <li class="panel-label">movable</li>
+          </ul>
+          <ul class="botoes">
+            <!-- default  -->
+            <li class="btn-text btn btn-p-color">default primary</li>
+            <li class="btn-text btn btn-s-color">default secondary</li>
+            <li class="btn-text btn">default tertiary</li>
+            <li>
+              <img src="./assets/cursor1.svg" alt="" />
+            </li>
+            <!-- hover  -->
+            <li class="btn-text btn hover-p-color">hover primary</li>
+            <li class="btn-text btn hover-s-color">hover secondary</li>
+            <li class="btn-text btn">hover tertiary</li>
+            <li>
+              <img src="./assets/cursor1.svg" alt="" />
+            </li>
+            <!-- focus  -->
+            <li class="btn-text btn btn-p-color focus">focus primary</li>
+            <li class="btn-text btn btn-s-color focus">focus secondary</li>
+            <li class="btn-text btn focus">focus tertiary</li>
+            <li>
+              <img src="./assets/cursor1.svg" alt="" />
+            </li>
+            <!-- disabled  -->
+            <li class="btn-text btn disabled-p disabled-text-color">
+              disabled primary
+            </li>
+            <li class="btn-text btn disabled-s disabled-text-color">
+              disabled secondary
+            </li>
+            <li class="btn-text btn disabled-text-color">disabled tertiary</li>
+            <li>
+              <img src="./assets/cursor-disabled.svg" alt="" />
+            </li>
+            <!-- loading  -->
+            <li class="btn-text btn btn-p-color">
+              <img src="./assets/icon-loading.svg" alt="" />loading primary
+            </li>
+            <li class="btn-text btn btn-s-color">
+              <img src="./assets/icon-loading.svg" alt="" />loading secondary
+            </li>
+            <li class="btn-text btn">
+              <img src="./assets/icon-loading.svg" alt="" />loading tertiary
+            </li>
+            <li><img src="./assets/cursor-loading.svg" alt="" /></li>
+            <!-- movable  -->
+            <li class="btn-text btn btn-p-color">
+              <img src="./assets/icon-move.svg" alt="" />movable primary
+            </li>
+            <li class="btn-text btn btn-s-color">
+              <img src="./assets/icon-move.svg" alt="" />movable secondary
+            </li>
+            <li class="btn-text btn">
+              <img src="./assets/icon-move.svg" alt="" />movable tertiary
+            </li>
+            <li><img src="./assets/cursor-move.svg" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="btn-test">
+        <h1>Teste os botões</h1>
+        <p>
+          Interaja com os botões e observe a mudança de aparência e de cursores
+        </p>
+        <nav>
+          <button class="btn-text interaja-primary">interaja comigo</button>
+          <button class="btn-text interaja-secondary">interaja comigo</button>
+          <button class="btn-text interaja-tertiary"><img src="./assets/icon-move.svg" alt="" />interaja comigo</button>
+        </nav>
+      </div>
+    </main>
+  </body>
+</html>
